@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from './CardList';
 import {robots_array } from './robots';
 import 'tachyons';
+import './App.css'
 
 class App extends Component {
 	constructor() {
@@ -37,7 +38,7 @@ class App extends Component {
 		})
 		return (
 			<div className = 'tc'>
-				<h1>RoboFriends</h1>
+				<h1 className = 'f1'>RoboFriends</h1>
 				<h2>It is {this.state.date1.toLocaleTimeString()}.</h2>
 				<div>
 					<input 
