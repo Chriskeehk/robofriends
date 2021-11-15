@@ -38,7 +38,7 @@ class App extends Component {
 		})
 		return (
 			<div className = 'tc'>
-				<h1 className = 'f1'>RoboFriends</h1>
+				<h1 className = 'f1'>RoboFriends New</h1>
 				<h2>It is {this.state.date1.toLocaleTimeString()}.</h2>
 				<div>
 					<input 
